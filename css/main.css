@@ -1,0 +1,33 @@
+body div:last-of-type {
+    background: url('../images/mob_3.jpg');
+    width: 250px;
+    /* min-width: 100%;
+    max-height: 100%; */
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    body div:last-of-type {
+        background: url('../images/tab_3.jpg');
+        width: 450px;
+        /* min-width: 100%;
+        max-height: 100%; */
+        min-height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body div:last-of-type {
+        background: url('../images/tab_3.jpg');
+        width: 650px;
+        /* min-width: 100%;
+        max-height: 100%; */
+        min-height: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
